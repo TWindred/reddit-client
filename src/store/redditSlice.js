@@ -90,7 +90,7 @@ export const fetchPosts = (subreddit) => async (dispatch) => {
     }
 };
 
-export const fetchComment = (index, permalink) => async (dispatch) => {
+export const fetchComments = (index, permalink) => async (dispatch) => {
     try {
         dispatch(startGetComments(index));
         const comments = await getPostComments(permalink);

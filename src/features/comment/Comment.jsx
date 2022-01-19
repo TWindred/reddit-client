@@ -12,7 +12,7 @@ const Comment = (props) => {
                 <Avatar name={comment.author} />
                 <p className="comment-author">{comment.author}</p>
                 <p className="comment=created-time">
-                    {moment.unix(comment.created_utc).fromNow()}
+                {moment.unix(comment.created_utc).fromNow()}
                 </p>
             </div>
             <ReactMarkdown source={comment.body} />
