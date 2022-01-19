@@ -36,7 +36,7 @@ const Post = (props) => {
         if (voteValue === 1) {
             return <TiArrowUpThick className="icon-action" />;
         }
-        return <TiArrowDownOutline className="icon-action" />;
+        return <TiArrowUpOutline className="icon-action" />;
         };
 
     const renderDownVote = () => {
