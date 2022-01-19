@@ -116,6 +116,7 @@ const Post = (props) => {
                         onClick={() => onHandleVote(-1)}
                         aria-label="Down"
                         >
+                            {renderDownVote()}
                         </button>
                     </div>
                     <div className="post-container">

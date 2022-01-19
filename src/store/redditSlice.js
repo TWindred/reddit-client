@@ -84,7 +84,7 @@ export const fetchPosts = (subreddit) => async (dispatch) => {
             loadingComments: false,
             errorComments: false,
         }));
-        dispatch(getPostsSuccess(postsWithMetadata));
+        dispatch(getPostsSuccess(postsWithMetaData));
     } catch (error) {
         dispatch(getPostsFailed());
     }
@@ -101,7 +101,7 @@ export const fetchComment = (index, permalink) => async (dispatch) => {
 };
 
 const selectPosts = (state) => state.reddit.posts;
-const selectSearchTerm = state.reddit.searchTerm;
+const selectSearchTerm = (state) => state.reddit.searchTerm;
 export const selectSelectedSubreddit = (state) =>
     state.reddit.selectedSubreddit;
 
