@@ -1,0 +1,25 @@
+.subreddit-card {
+    pading-right: var(--spacing-2);
+}
+
+.subreddit-card h2 {
+    margin-top: 0;
+    color: var(--color-text-header);
+}
+
+.subreddit-card button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: var(--color-text-body);
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    padding: var(--spacing-2);
+    border-radius: var(--radius);
+}
+
+.selected-subreddit button {
+    
+}
