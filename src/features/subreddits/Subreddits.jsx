@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import Card from '../../components/card/Card';
+import Card from 'E:/projects/redditClientProject/reddit-client/src/components/card/Card';
 import {fetchSubreddits, selectSubreddits} from '../../store/subRedditsSlice.js';
 import './subreddits.css';
 import {setSelectedSubreddit, selectSelectedSubreddit} from '../../store/redditSlice';
