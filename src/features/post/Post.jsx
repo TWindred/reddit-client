@@ -10,7 +10,7 @@ import {
 } from 'react-icons/ti';
 import moment from 'moment';
 import shortenNumber from '../../utils/shortenNumber';
-import Card from '../../components/card/card';
+import Card from '../../components/card/Card';
 import Comment from '../comment/Comment';
 import Avatar from '../avatar/Avatar';
 
