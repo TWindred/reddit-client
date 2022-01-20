@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Skeleton from 'react-loading-skeleton';
-import './Post.css';
+import './post.css';
 import {
     TiArrowUpOutline,
     TiArrowUpThick,
